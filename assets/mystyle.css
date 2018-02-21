@@ -1,0 +1,67 @@
+body{
+	background-image: url("images/celeb.gif");
+	font-family: 'Raleway', sans-serif;
+	color: yellow;
+	font-size: 25px;
+}
+
+header{
+	margin-bottom: 20px;
+}
+
+.btn-primary,.reset{
+	background-color: #6C2DC7;
+	color: white;
+	font-family: 'Sigmar One', sans-serif;
+	font-size: 30px;
+	padding: 20px;
+	margin-top: 100px;
+}
+.btn-primary:hover, .reset:hover{
+	background-color: #38ACEC;
+}
+
+.container{
+	margin-top: 50px;
+	text-align: center;
+	height: 100%;
+	width: 700px;
+	padding: 50px;
+    border: 5px solid tomato;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+h2, #message, #finalMessage{
+	font-family: Sigmar One;
+}
+
+.thisChoice:hover{
+	background-color: #202364;
+	color: white;
+	padding: 10px;
+}
+
+#gif{
+	margin: 30px;
+}
+
+@media screen and (max-width:640px){
+	.container{
+		width: 500px;
+		margin-top: 200px;
+		size: 200%;
+	}	
+}
+
+.question, #timeLeft{
+	color: white;
+}
+
+#timeLeft{
+	color: #ED61E4;
+}
+
+#currentQuestion{
+	color: #59F2F7;
+}
